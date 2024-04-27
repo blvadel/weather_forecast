@@ -1,7 +1,6 @@
 import requests
 import json
 
-
 def get_current_weather():
     #http://api.weatherapi.com/v1/current.json?key=c70ccfb2c56143f5893175705242604&q=London&aqi=no
     url = 'http://api.weatherapi.com/v1/current.json'
@@ -18,11 +17,25 @@ def get_current_weather():
     print(result_dict_beauty)
     print(f'City - {result_dict["location"]["name"]}',
           f'Country - {result_dict["location"]["country"]}',
+          f'Date - {result_dict["location"]["localtime"]}',
           f'Temperature - {int(result_dict["current"]["temp_c"])} C',
           f'Weather condition - {result_dict["current"]["condition"]["text"]}',
           f'Humidity - {int(result_dict["current"]["humidity"])}',
           f'Wind speed - {result_dict["current"]["wind_kph"]} km/h',
           f'Wind direction - {result_dict["current"]["wind_dir"]}', sep ='\n')
+    # data = [
+    #     ["City", "Country", "Date", "Temperature (C)", "Weather condition", "Humidity", "Wind speed (km/h)", "Wind direction"],
+    #     [
+    #         result_dict["location"]["name"],
+    #         result_dict["location"]["country"],
+    #         result_dict["location"]["localtime"],
+    #         int(result_dict["current"]["temp_c"]),
+    #         result_dict["current"]["condition"]["text"],
+    #         int(result_dict["current"]["humidity"]),
+    #         result_dict["current"]["wind_kph"],
+    #         result_dict["current"]["wind_dir"]
+    #     ]
+    # ]
 
 
 get_current_weather()
