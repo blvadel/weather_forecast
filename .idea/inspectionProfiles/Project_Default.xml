@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="22">
+            <item index="0" class="java.lang.String" itemvalue="flake8-eradicate" />
+            <item index="1" class="java.lang.String" itemvalue="botocore" />
+            <item index="2" class="java.lang.String" itemvalue="pytest-flake8" />
+            <item index="3" class="java.lang.String" itemvalue="aws-ses-client" />
+            <item index="4" class="java.lang.String" itemvalue="pytest" />
+            <item index="5" class="java.lang.String" itemvalue="pytest-pythonpath" />
+            <item index="6" class="java.lang.String" itemvalue="python-platformlib" />
+            <item index="7" class="java.lang.String" itemvalue="pytest-xdist" />
+            <item index="8" class="java.lang.String" itemvalue="Jinja2" />
+            <item index="9" class="java.lang.String" itemvalue="flake8" />
+            <item index="10" class="java.lang.String" itemvalue="flake8-blind-except" />
+            <item index="11" class="java.lang.String" itemvalue="boto3" />
+            <item index="12" class="java.lang.String" itemvalue="flake8-quotes" />
+            <item index="13" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="14" class="java.lang.String" itemvalue="pytest-mock" />
+            <item index="15" class="java.lang.String" itemvalue="pytest-sanic" />
+            <item index="16" class="java.lang.String" itemvalue="pytest-env" />
+            <item index="17" class="java.lang.String" itemvalue="flake8-pep3101" />
+            <item index="18" class="java.lang.String" itemvalue="pytest-freezegun" />
+            <item index="19" class="java.lang.String" itemvalue="responses" />
+            <item index="20" class="java.lang.String" itemvalue="pytest-html" />
+            <item index="21" class="java.lang.String" itemvalue="flake8-fixme" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
